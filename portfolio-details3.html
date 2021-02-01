@@ -33,7 +33,14 @@
   
   
   
-  
+  <script type="text/javascript">
+//<![CDATA[
+function modelesswin(url,mwidth,mheight){if(document.all&&window.print)
+eval('window.showModelessDialog(url,"","help:0;dialogTop:50px;dialogLeft:50px;resizable:0;dialogWidth:'+mwidth+'px;dialogHeight:'+mheight+'px")')
+else
+eval('window.open(url,"","width='+mwidth+'px,height='+mheight+'px,resizable=1,scrollbars=1,left=20,top=20")')}
+//]]>	
+</script>
   
   
 <script type="text/javascript">
@@ -72,11 +79,8 @@ function closeCurrentWindow()
         
         
         <a href="javascript:history.back()"> Volver Atrás</a>
-              <a href="#portfolio"> Volver</a>
-        <a href="javascript:history.back()#portfolio"> Volver 2 </a>
+      <a href="javascript:modelesswin('https://timbols.github.io/LeoSanchez#portfolio',420,550)">Todos los navegadores</a><br />
 
-
-          <button type="button" class="btn-close btn-close-white" aria-label="Close"  onclick="closeCurrentWindow()"></button>
 
         <div class="row">
 
