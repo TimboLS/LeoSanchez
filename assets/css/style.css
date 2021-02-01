@@ -1070,42 +1070,6 @@ section .container {
 
 
 
-#cerrar-modal {
-   display: none;
-}
-#cerrar-modal + label {
-   position: absolute;
-   top: 1em;
-   right: 1em;
-   z-index: 100;
-   color: #fff;
-   font-weight: bold;
-   cursor: pointer;
-   background: tomato;
-   width: 25px;
-   height: 25px;
-   line-height: 25px;
-   text-align: center;
-   border-radius: 50%;
-   transition: all .5s;
-}
-#cerrar-modal:checked ~ #modal {
-   top: -100vh;
-}
-#cerrar-modal + label {
-   display: none;
-}
-#mostrar-modal:checked ~ #cerrar-modal + label {
-   display: block;
-}
-#cerrar-modal:checked + label {
-   display: none;
-}
-
-
-
-
-
 
 
 
