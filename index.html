@@ -28,6 +28,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   gtag('js', new Date());
 
   gtag('config', 'G-THDMYGNQ0H');
+
+  // 🔎 DEBUG ON (solo mientras probás DebugView)
+  gtag('config', 'G-THDMYGNQ0H', {
+    debug_mode: true,     // <-- esto hace que tu sesión aparezca en DebugView
+    send_page_view: true
+  });
+  
 </script>
 
   <meta charset="utf-8">
@@ -697,5 +704,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </body>
 
 </html>
+
 
 
